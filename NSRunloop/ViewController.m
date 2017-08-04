@@ -3,7 +3,7 @@
 //  NSRunloop
 //
 //  Created by apple on 2017/8/4.
-//  Copyright © 2017年 wupeng. All rights reserved.
+//  Copyright © 2017年 apple. All rights reserved.
 //
 
 #import "ViewController.h"

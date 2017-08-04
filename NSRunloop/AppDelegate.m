@@ -3,10 +3,11 @@
 //  NSRunloop
 //
 //  Created by apple on 2017/8/4.
-//  Copyright © 2017年 wupeng. All rights reserved.
+//  Copyright © 2017年 apple. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "BaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    BaseViewController *vc = [[BaseViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -15,6 +15,9 @@
 		18F7CFA71F3404E700D964C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F7CFA51F3404E700D964C7 /* LaunchScreen.storyboard */; };
 		18F7CFB21F3404E700D964C7 /* NSRunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7CFB11F3404E700D964C7 /* NSRunloopTests.m */; };
 		18F7CFBD1F3404E700D964C7 /* NSRunloopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7CFBC1F3404E700D964C7 /* NSRunloopUITests.m */; };
+		18F7CFCC1F34051700D964C7 /* WPRunloopTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7CFCB1F34051700D964C7 /* WPRunloopTasks.m */; };
+		18F7CFCF1F3406F200D964C7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7CFCE1F3406F200D964C7 /* BaseViewController.m */; };
+		18F7CFD31F3410BE00D964C7 /* asiatravel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F7CFD21F3410BE00D964C7 /* asiatravel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		18F7CFB81F3404E700D964C7 /* NSRunloopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRunloopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7CFBC1F3404E700D964C7 /* NSRunloopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRunloopUITests.m; sourceTree = "<group>"; };
 		18F7CFBE1F3404E700D964C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F7CFCA1F34051700D964C7 /* WPRunloopTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPRunloopTasks.h; sourceTree = "<group>"; };
+		18F7CFCB1F34051700D964C7 /* WPRunloopTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRunloopTasks.m; sourceTree = "<group>"; };
+		18F7CFCD1F3406F200D964C7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18F7CFCE1F3406F200D964C7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18F7CFD21F3410BE00D964C7 /* asiatravel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asiatravel.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				18F7CF9B1F3404E700D964C7 /* AppDelegate.m */,
 				18F7CF9D1F3404E700D964C7 /* ViewController.h */,
 				18F7CF9E1F3404E700D964C7 /* ViewController.m */,
+				18F7CFCD1F3406F200D964C7 /* BaseViewController.h */,
+				18F7CFCE1F3406F200D964C7 /* BaseViewController.m */,
+				18F7CFD21F3410BE00D964C7 /* asiatravel.jpg */,
+				18F7CFCA1F34051700D964C7 /* WPRunloopTasks.h */,
+				18F7CFCB1F34051700D964C7 /* WPRunloopTasks.m */,
 				18F7CFA01F3404E700D964C7 /* Main.storyboard */,
 				18F7CFA31F3404E700D964C7 /* Assets.xcassets */,
 				18F7CFA51F3404E700D964C7 /* LaunchScreen.storyboard */,
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F7CFA71F3404E700D964C7 /* LaunchScreen.storyboard in Resources */,
+				18F7CFD31F3410BE00D964C7 /* asiatravel.jpg in Resources */,
 				18F7CFA41F3404E700D964C7 /* Assets.xcassets in Resources */,
 				18F7CFA21F3404E700D964C7 /* Main.storyboard in Resources */,
 			);
@@ -274,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F7CF9F1F3404E700D964C7 /* ViewController.m in Sources */,
+				18F7CFCF1F3406F200D964C7 /* BaseViewController.m in Sources */,
 				18F7CF9C1F3404E700D964C7 /* AppDelegate.m in Sources */,
 				18F7CF991F3404E700D964C7 /* main.m in Sources */,
+				18F7CFCC1F34051700D964C7 /* WPRunloopTasks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				18F7CFC31F3404E700D964C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F7CFC41F3404E700D964C7 /* Build configuration list for PBXNativeTarget "NSRunloopTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				18F7CFC61F3404E700D964C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F7CFC71F3404E700D964C7 /* Build configuration list for PBXNativeTarget "NSRunloopUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				18F7CFC91F3404E700D964C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
